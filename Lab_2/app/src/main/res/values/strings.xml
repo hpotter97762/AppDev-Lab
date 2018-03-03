@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Tic Tac Toe</string>
+    <string name="Note"><b>0 plays first</b></string>
+    <string name="reset"><b>RESET</b></string>
+</resources>
