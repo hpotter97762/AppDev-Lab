@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:theme="@style/Theme.AppCompat.Light.DarkActionBar">
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:key="italicize"
+        android:summaryOff="normal"
+        android:summaryOn="Italics"
+        android:title="Italics"/>
+    <ListPreference
+        android:key="theme"
+        android:entries="@array/Themes"
+        android:summary="%s"
+        android:entryValues="@array/Themes"
+        android:title="theme"/>
+
+    <EditTextPreference
+        android:title="User"
+        android:defaultValue="User"
+        android:summary=""
+        android:key="User"/>
+
+
+</PreferenceScreen>
