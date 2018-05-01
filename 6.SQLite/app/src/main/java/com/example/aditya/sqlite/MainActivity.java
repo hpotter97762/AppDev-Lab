@@ -48,7 +48,7 @@ public class MainActivity extends AppCompatActivity {
                 lv.setAdapter(new ArrayAdapter<>(MainActivity.this,android.R.layout.simple_list_item_1,str));
                 Intent intent=new Intent(MainActivity.this,NewAppWidget.class);
                 intent.setAction(AppWidgetManager.ACTION_APPWIDGET_UPDATE);
-
+                startActivity(intent);
             }
         });
         lv.setOnItemClickListener(new AdapterView.OnItemClickListener() {
